@@ -61,5 +61,8 @@ Material:
     m_Floats:
     - _QueueControl: 0
     - _QueueOffset: 0
-    m_Colors: []
+    - _dotAmount: 20
+    - _dotSize: 0.1
+    m_Colors:
+    - _DotColor: {r: 0.6830188, g: 0.6753303, b: 0, a: 0}
   m_BuildTextureStacks: []
