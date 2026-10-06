@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Whiter 1
+  m_Name: Shine
   m_Shader: {fileID: -6465566751694194690, guid: df619ccca7dd31b4280e29b20277c0d3,
     type: 3}
   m_Parent: {fileID: 0}
@@ -53,17 +53,19 @@ Material:
     - _ADDITIONAL_LIGHTS: 1
     - _Low_threshold: 0.37
     - _MAIN_LIGHT_SHADOWS_CASCADE: 1
+    - _NoiseScale: 199.29
     - _QueueControl: 0
     - _QueueOffset: 0
     - _SHADOWS_SOFT: 1
     - _ShadowTexAngle: 2.1
     - _ShadowTexScale: 4
     - _Threshold: 0.76
+    - _squash: 3
     m_Colors:
-    - _Highlight: {r: 0.9547169, g: 0.8742744, b: 0.61786395, a: 1}
-    - _Midtone: {r: 0.87169814, g: 0.80368614, b: 0.5378213, a: 1}
+    - _Highlight: {r: 0.9529412, g: 0.9046241, b: 0.8862745, a: 1}
+    - _Midtone: {r: 0.9764706, g: 0.7937739, b: 0.309804, a: 1}
     - _RampedDiffuseValues: {r: 0.2, g: 0.5, b: 1, a: 0}
-    - _Shadow: {r: 0.8705883, g: 0.80392164, b: 0.5372549, a: 1}
+    - _Shadow: {r: 0.9137255, g: 0.45329642, b: 0.23529412, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &2041975074682087336
 MonoBehaviour:

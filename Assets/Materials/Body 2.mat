@@ -53,12 +53,14 @@ Material:
     - _ADDITIONAL_LIGHTS: 1
     - _Low_threshold: 0.37
     - _MAIN_LIGHT_SHADOWS_CASCADE: 1
+    - _NoiseScale: 199.29
     - _QueueControl: 0
     - _QueueOffset: 0
     - _SHADOWS_SOFT: 1
     - _ShadowTexAngle: 2.1
     - _ShadowTexScale: 4
     - _Threshold: 0.76
+    - _squash: 3
     m_Colors:
     - _Highlight: {r: 0.99607843, g: 0.5715839, b: 0.45098037, a: 1}
     - _Midtone: {r: 0.9764706, g: 0.41218606, b: 0.309804, a: 1}
