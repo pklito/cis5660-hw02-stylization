@@ -15,11 +15,15 @@ void ChooseColor_float(float3 Highlight, float3 Midtone, float3 Shadow, float Di
     }
 }
 
+float Gradient3D(float3 Pos)
+{
+    return GradientNoise(Pos.xy + cos(Pos.zz));
+}
 float NoiseFactory(float3 Pos, float Diffuse, float seed)
 {
-    float2 v2s = float2(321.41 * seed, 139.3*seed*sin(seed) + 13.1 * seed);
-    float noise = GradientNoise(Pos.xy) + GradientNoise(Pos.zz);
-    Diffuse += 0.1 *GradientNoise(float2(0.4,0.4) * Pos.xy + v2s) + 0.1 *GradientNoise(float2(0.4,0.4) * (Pos.xy + v2s + float2(0.2,0.0)));
+    float3 v2s = float3(321.41 * seed, 139.3*seed*sin(seed) + 13.1 * seed, cos(seed) + seed * 31.4);
+    float noise = Gradient3D(Pos);
+    Diffuse += 0.1 *Gradient3D(0.4 * Pos + v2s) + 0.1 *Gradient3D(0.4 * (Pos + v2s + float3(0.2,0.0,0.)));
     Diffuse = max(Diffuse, smoothstep(0.8, 0.9, noise));
     return Diffuse;
 }
