@@ -20,8 +20,12 @@
       <change beforePath="$PROJECT_DIR$/Assets/Buffers.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Buffers.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Buffers/Normal Buffer.renderTexture.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Buffers/Normal Buffer.renderTexture.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Ground.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Ground.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Shine.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Shine.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Skin.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Skin.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Models.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Render Settings.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Render Settings.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Render Settings/Invert mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Render Settings/Invert mat.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Render Settings/Render Features.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Render Settings/Render Features.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Render Settings/Render Features/EdgeDetection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Render Settings/Render Features/EdgeDetection.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Render Settings/Render Features/Full Screen Feature.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Render Settings/Render Features/Full Screen Feature.cs" afterDir="false" />
@@ -29,16 +33,20 @@
       <change beforePath="$PROJECT_DIR$/Assets/Render Settings/Render Features/NormalFeature.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Render Settings/Render Features/NormalFeature.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Render Settings/Render Features/NormalFeature.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Render Settings/Render Features/NormalFeature.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Render Settings/Render Features/ScreenSpaceOutlines.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Render Settings/Render Features/ScreenSpaceOutlines.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Render Settings/URP-Custom-Renderer.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Render Settings/URP-Custom-Renderer.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Render Settings/URP-Custom-Renderer.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Render Settings/URP-Custom-Renderer.asset.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Render Settings/URP-Custom.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Render Settings/URP-Custom.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Render Settings/URP-Custom.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Render Settings/URP-Custom.asset.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Additional Light Demo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Additional Light Demo.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Additional Light Demo.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Additional Light Demo.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/HW Base.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/HW Base.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/HW Base.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/HW Base.unity.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Turntable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Turntable.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Turntable.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Turntable.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Shaders.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Core/Invert.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Core/Invert.shadergraph" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Shaders/Core/Normal Copy.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Core/Normal Copy.shader" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Shaders/Core/Normal Copy.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Core/Normal Copy.shader.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Shaders/EdgeShader.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/EdgeShader.shader" afterDir="false" />
@@ -50,9 +58,11 @@
       <change beforePath="$PROJECT_DIR$/Assets/Shaders/Includes/OutlineHelp.hlsl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Includes/OutlineHelp.hlsl.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Shaders/Includes/Watercolor.hlsl" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Includes/Watercolor.hlsl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Shaders/Includes/Watercolor.hlsl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Includes/Watercolor.hlsl.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/ShadowsTex.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/ShadowsTex.shadergraph" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Shaders/Subgraphs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Subgraphs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Textures.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Textures/Shadow 1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Shadow 1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/tiled_layers_scaledup.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/tiled_layers_scaledup.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
@@ -94,7 +104,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Render Settings/Render Features/ScreenSpaceOutlines.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@14.0.12/ShaderLibrary/Shadows.hlsl" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Temp/Compiled-Shader Graphs-ShadowsTex.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp/GeneratedFromGraph-ShadowsTex-GradientNoise-f3f895b74a73469ebfc4af5691860250.shader" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="McpProjectServerCommands">
     <commands />
@@ -103,61 +113,61 @@
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.00003984326598" />
-      <entry key="S5" value="1.0449833913364812" />
-      <entry key="S10" value="1.5406546328406086" />
-      <entry key="S30" value="4.2873358200219895" />
-      <entry key="S60" value="7.580077013802029" />
-      <entry key="M2" value="13.114787478766917" />
-      <entry key="M5" value="22.504053680481704" />
-      <entry key="M10" value="28.639514723059026" />
-      <entry key="M15" value="31.31421378025351" />
-      <entry key="M30" value="34.52724980232409" />
-      <entry key="H1" value="40.52706819263934" />
-      <entry key="H2" value="65.60262385667981" />
-      <entry key="H4" value="111.44769654665507" />
-      <entry key="D1" value="203.79408794845818" />
-      <entry key="W1" value="229.32761011936725" />
+      <entry key="MS100" value="2.0260020115721947E-72" />
+      <entry key="MS500" value="1.0885978238105692E-14" />
+      <entry key="S2" value="7.357487214670225E-4" />
+      <entry key="S5" value="0.10787921296213321" />
+      <entry key="S10" value="0.568885714753827" />
+      <entry key="S30" value="1.723673337020205" />
+      <entry key="S60" value="2.312671825125517" />
+      <entry key="M2" value="3.387508435011575" />
+      <entry key="M5" value="10.92948978798949" />
+      <entry key="M10" value="27.679933125802894" />
+      <entry key="M15" value="41.30397783942587" />
+      <entry key="M30" value="67.2236181106981" />
+      <entry key="H1" value="94.69114028894134" />
+      <entry key="H2" value="130.8178185084543" />
+      <entry key="H4" value="184.67175051441268" />
+      <entry key="D1" value="302.5388865426442" />
+      <entry key="W1" value="337.5086654322162" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="3.9863412954038474E-13" />
-      <entry key="MS500" value="0.003312462755759728" />
-      <entry key="S2" value="0.2628072324690686" />
-      <entry key="S5" value="0.785750072448428" />
-      <entry key="S10" value="1.2215249439021951" />
-      <entry key="S30" value="1.6969415964207883" />
-      <entry key="S60" value="2.000640558190338" />
-      <entry key="M2" value="2.83297269748598" />
-      <entry key="M5" value="5.139645261381106" />
-      <entry key="M10" value="6.97558216514442" />
-      <entry key="M15" value="7.819528448874483" />
-      <entry key="M30" value="8.860045250714409" />
-      <entry key="H1" value="10.232931176923186" />
-      <entry key="H2" value="13.864934892528689" />
-      <entry key="H4" value="19.35195490036535" />
-      <entry key="D1" value="29.08249192270228" />
-      <entry key="W1" value="31.557289509686306" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000000000002" />
+      <entry key="S2" value="1.0001298379727652" />
+      <entry key="S5" value="1.0278843606002888" />
+      <entry key="S10" value="1.166986109003981" />
+      <entry key="S30" value="1.5506877405207788" />
+      <entry key="S60" value="1.7483545907074152" />
+      <entry key="M2" value="2.02809981973775" />
+      <entry key="M5" value="3.680774008995705" />
+      <entry key="M10" value="6.815317350448588" />
+      <entry key="M15" value="9.19859441320942" />
+      <entry key="M30" value="13.686138402985105" />
+      <entry key="H1" value="18.669450477283625" />
+      <entry key="H2" value="24.827972884464845" />
+      <entry key="H4" value="32.443140809598404" />
+      <entry key="D1" value="46.51998664949298" />
+      <entry key="W1" value="50.312340149885486" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.1484121304447832E-5" />
-      <entry key="MS500" value="0.103900427303095" />
-      <entry key="S2" value="0.7621552195079471" />
-      <entry key="S5" value="1.5187516038036255" />
-      <entry key="S10" value="2.5112587664189094" />
-      <entry key="S30" value="5.788880061248226" />
-      <entry key="S60" value="9.43499701070897" />
-      <entry key="M2" value="15.842857863443031" />
-      <entry key="M5" value="27.57877046619289" />
-      <entry key="M10" value="35.57430532840723" />
-      <entry key="M15" value="39.10401677075402" />
-      <entry key="M30" value="43.37088869380854" />
-      <entry key="H1" value="50.75078824925661" />
-      <entry key="H2" value="79.46138337869124" />
-      <entry key="H4" value="130.795234577443" />
-      <entry key="D1" value="232.87537091048435" />
-      <entry key="W1" value="260.884703863801" />
+      <entry key="MS100" value="5.647891522975037E-4" />
+      <entry key="MS500" value="0.22406667489235899" />
+      <entry key="S2" value="0.6887475596266226" />
+      <entry key="S5" value="0.9873240151826755" />
+      <entry key="S10" value="1.636429841997706" />
+      <entry key="S30" value="3.2203492711046477" />
+      <entry key="S60" value="4.028698698143744" />
+      <entry key="M2" value="5.394822597624932" />
+      <entry key="M5" value="14.588737576411411" />
+      <entry key="M10" value="34.47097925196947" />
+      <entry key="M15" value="50.47928900808747" />
+      <entry key="M30" value="80.89106212253583" />
+      <entry key="H1" value="113.34709258622422" />
+      <entry key="H2" value="155.63638000369562" />
+      <entry key="H4" value="217.10842368995114" />
+      <entry key="D1" value="349.0571642721304" />
+      <entry key="W1" value="387.8207307470838" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{

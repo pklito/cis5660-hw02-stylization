@@ -64,14 +64,62 @@ Shader "Hidden/Edge Detection"
                 float3 color = SampleSceneColor(uv);
                 return color.r * 0.3 + color.g * 0.59 + color.b * 0.11;
             }
-
-            half4 frag(Varyings IN) : SV_TARGET
+            
+            //Imported noise functions
+            float2 Hash22(float2 p)
             {
-                float2 uv = IN.texcoord;
-                float2 texel_size = float2(1.0 / _ScreenParams.x, 1.0 / _ScreenParams.y);
-                
-                float2 offset = texel_size * _OutlineThickness;
+                p = float2(dot(p, float2(127.1, 311.7)), dot(p, float2(269.5, 183.3)));
+                return -1.0 + 2.0 * frac(sin(p) * 43758.5453123);
+            }
 
+            float2 Noise22(float2 p)
+            {
+                float2 i = floor(p);
+                float2 f = frac(p);
+                float2 u = f * f * (3.0 - 2.0 * f);
+
+                float2 a = Hash22(i);
+                float2 b = Hash22(i + float2(1.0, 0.0));
+                float2 c = Hash22(i + float2(0.0, 1.0));
+                float2 d = Hash22(i + float2(1.0, 1.0));
+
+                return lerp(lerp(a, b, u.x), lerp(c, d, u.x), u.y);
+            }
+
+            float2 WarpUV(float2 uv, float2 resolution, float frequency, float amplitudePixels, float seed)
+            {
+                float aspect = resolution.x / resolution.y;
+                float2 p = uv * float2(frequency * aspect, frequency) + seed;
+
+                float2 n = Noise22(p) + 0.5 * Noise22(p * 2.3 + 17.0);
+
+                return clamp(uv + n * (amplitudePixels / resolution), 0.0, 1.0);
+            }
+
+            float2 GradientHash(float2 p)
+            {
+                p = float2(dot(p, float2(127.1, 311.7)), dot(p, float2(269.5, 183.3)));
+                float2 g = -1.0 + 2.0 * frac(sin(p) * 43758.5453123);
+                return normalize(g + 1e-5);
+            }
+
+            float GradientNoise(float2 p)
+            {
+                p = 13.31*p;
+                float2 i = floor(p);
+                float2 f = frac(p);
+                float2 u = f * f * f * (f * (f * 6.0 - 15.0) + 10.0);
+
+                float a = dot(GradientHash(i), f);
+                float b = dot(GradientHash(i + float2(1.0, 0.0)), f - float2(1.0, 0.0));
+                float c = dot(GradientHash(i + float2(0.0, 1.0)), f - float2(0.0, 1.0));
+                float d = dot(GradientHash(i + float2(1.0, 1.0)), f - float2(1.0, 1.0));
+
+                return lerp(lerp(a, b, u.x), lerp(c, d, u.x), u.y) * 1.4142;
+            }
+            
+            float edgeCalc(float2 uv, float offset)
+            {
                 float2 uvs[9];
                 for (int y = 0; y < 3; y++)
                 {
@@ -110,7 +158,21 @@ Shader "Hidden/Edge Detection"
                 
                 float edge = max(edge_depth, edge_normal) * step(diffuse, 0.5);
                 
-                return edge * _OutlineColor;
+                return edge;
+            }
+            
+            half4 frag(Varyings IN) : SV_TARGET
+            {
+                float2 uv1 = WarpUV(IN.texcoord, _ScreenParams.xy, 10., 8., 0.);
+                float2 uv2 = IN.texcoord;
+                
+                float2 texel_size = float2(1.0 / _ScreenParams.x, 1.0 / _ScreenParams.y);
+                
+                float2 offset = texel_size * _OutlineThickness;
+                float noise = GradientNoise(IN.texcoord);
+                float offset1 = offset * smoothstep(-0.2,-0.15,GradientNoise(uv1 + float2(1.5,3.5) * floor(_Time.y)));
+                float offset2 =  (offset - offset1) * smoothstep(-0.05,-0.00,GradientNoise(uv2+float2(132.1,1.00413)* floor(_Time.y)));
+                return (edgeCalc(uv2,offset2) + edgeCalc(uv1, offset1))* _OutlineColor;
             }
             ENDHLSL
         }

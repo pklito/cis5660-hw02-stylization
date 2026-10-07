@@ -51,18 +51,21 @@ Material:
     - ADDITIONAL_LIGHT_CALCULATE_SHADOWS: 1
     - MAIN_LIGHT_CALCULATE_SHADOWS: 1
     - _ADDITIONAL_LIGHTS: 1
-    - _Low_threshold: 0.37
+    - _ErosionThreshold: 1
+    - _Low_threshold: 0.33
     - _MAIN_LIGHT_SHADOWS_CASCADE: 1
-    - _NoiseScale: 199.29
+    - _NoiseScale: 9.7
     - _QueueControl: 0
     - _QueueOffset: 0
     - _SHADOWS_SOFT: 1
     - _ShadowTexAngle: 2.1
-    - _ShadowTexScale: 4
+    - _ShadowTexScale: 6.34
+    - _ShadowThreshold: 1
+    - _Thickness: 0.2
     - _Threshold: 0.76
-    - _squash: 3
+    - _squash: 0.4
     m_Colors:
-    - _Highlight: {r: 0.9529412, g: 0.9046241, b: 0.8862745, a: 1}
+    - _Highlight: {r: 1, g: 1, b: 1, a: 1}
     - _Midtone: {r: 0.9764706, g: 0.7937739, b: 0.309804, a: 1}
     - _RampedDiffuseValues: {r: 0.2, g: 0.5, b: 1, a: 0}
     - _Shadow: {r: 0.9137255, g: 0.45329642, b: 0.23529412, a: 1}

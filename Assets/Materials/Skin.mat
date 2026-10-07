@@ -54,7 +54,7 @@ Material:
     - _ErosionThreshold: 1
     - _Low_threshold: 0.37
     - _MAIN_LIGHT_SHADOWS_CASCADE: 1
-    - _NoiseScale: 21.5
+    - _NoiseScale: 23.25
     - _QueueControl: 0
     - _QueueOffset: 0
     - _SHADOWS_SOFT: 1
@@ -63,7 +63,7 @@ Material:
     - _ShadowThreshold: 1
     - _Thickness: 0.2
     - _Threshold: 0.76
-    - _squash: 6.8
+    - _squash: 2.8
     m_Colors:
     - _Highlight: {r: 1, g: 1, b: 1, a: 1}
     - _Midtone: {r: 0.96981126, g: 0.92626125, b: 0.7520611, a: 1}
