@@ -35,6 +35,7 @@ Material:
     - _ErosionThreshold: 0.5
     - _Low_threshold: 0.88
     - _NoiseScale: 50
+    - _OriginDistance: 11.00155
     - _ShadowTexAngle: 2.24
     - _ShadowTexScale: 6.4
     - _ShadowThreshold: 0.13

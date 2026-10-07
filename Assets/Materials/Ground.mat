@@ -36,6 +36,7 @@ Material:
     - _HighlightsBlock: 1
     - _Low_threshold: 0.58
     - _NoiseScale: 12.41
+    - _OriginDistance: 11.00155
     - _ShadowThreshold: 0
     - _Threshold: 1.22
     - _squash: 3.1

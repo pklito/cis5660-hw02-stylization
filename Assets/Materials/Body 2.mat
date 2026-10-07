@@ -57,7 +57,7 @@ Material:
     - _Low_threshold: 0.37
     - _MAIN_LIGHT_SHADOWS_CASCADE: 1
     - _NoiseScale: 199.29
-    - _OriginDistance: 7.66
+    - _OriginDistance: 11.00155
     - _QueueControl: 0
     - _QueueOffset: 0
     - _SHADOWS_SOFT: 1
