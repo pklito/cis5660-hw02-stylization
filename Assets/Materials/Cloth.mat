@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Cloth
-  m_Shader: {fileID: -6465566751694194690, guid: df619ccca7dd31b4280e29b20277c0d3,
+  m_Shader: {fileID: -6465566751694194690, guid: f61a4e5d9ceae1243bf01e04440a8ddb,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -51,20 +51,26 @@ Material:
     - ADDITIONAL_LIGHT_CALCULATE_SHADOWS: 1
     - MAIN_LIGHT_CALCULATE_SHADOWS: 1
     - _ADDITIONAL_LIGHTS: 1
+    - _ErosionThreshold: 0.5
+    - _HighlightsAlways: 0
+    - _HighlightsBlock: 0
     - _Low_threshold: 0.37
     - _MAIN_LIGHT_SHADOWS_CASCADE: 1
     - _NoiseScale: 35.49
+    - _OriginDistance: 9.77
     - _QueueControl: 0
     - _QueueOffset: 0
     - _SHADOWS_SOFT: 1
     - _ShadowTexAngle: 2.1
     - _ShadowTexScale: 4
     - _ShadowThreshold: 0.13
+    - _Thickness: 0.2
     - _Threshold: 0.76
     - _squash: 4.4
     m_Colors:
     - _Highlight: {r: 1, g: 1, b: 1, a: 1}
     - _Midtone: {r: 1, g: 1, b: 1, a: 1}
+    - _Origin: {r: -0.71, g: 2.91, b: -3, a: 0}
     - _RampedDiffuseValues: {r: 0.2, g: 0.5, b: 1, a: 0}
     - _Shadow: {r: 0.8113208, g: 0.8113208, b: 0.8113208, a: 1}
   m_BuildTextureStacks: []
