@@ -31,7 +31,7 @@ void ChooseColorComplex_float(float3 Highlight, float3 Midtone, float3 Shadow, f
 {
     float noise = Gradient3D(WorldPos);
     float DiffuseLow = max(smoothstep(0.8, 0.9, noise), NoiseFactory(WorldPos, Diffuse, 0.));
-    float DiffuseHigh = max(smoothstep(0.8, 0.9, noise), NoiseFactory(WorldPos, Diffuse, 13.1));
+    float DiffuseHigh = max(smoothstep(0.6, 0.7, noise), NoiseFactory(WorldPos, Diffuse, 13.1));
     
     if (DiffuseLow < Thresholds.x)
     {

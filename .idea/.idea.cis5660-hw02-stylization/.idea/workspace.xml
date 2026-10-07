@@ -15,22 +15,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cis5660-hw02-stylization/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cis5660-hw02-stylization/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cis5660-hw02-stylization/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cis5660-hw02-stylization/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cis5660-hw02-stylization/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cis5660-hw02-stylization/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.cis5660-hw02-stylization/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cis5660-hw02-stylization/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vsconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.vsconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Buffers.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Buffers.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Buffers/Normal Buffer.renderTexture.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Buffers/Normal Buffer.renderTexture.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/ANIMATED.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/ANIMATED.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/ANim 2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/ANim 2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Body 2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Body 2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Cloth.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Cloth.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Ground.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Ground.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/PureWhite.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/PureWhite.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Shine.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Shine.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Skin.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Skin.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Sonic body.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Sonic body.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/smaller 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/smaller 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/smaller.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/smaller.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Models.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Render Settings.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Render Settings.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Render Settings/Render Features.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Render Settings/Render Features.meta" afterDir="false" />
@@ -45,7 +33,6 @@
       <change beforePath="$PROJECT_DIR$/Assets/Render Settings/URP-Custom.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Render Settings/URP-Custom.asset.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Additional Light Demo.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Additional Light Demo.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/HW Base.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/HW Base.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/HW Base.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/HW Base.unity.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Turntable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Turntable.cs" afterDir="false" />
@@ -64,7 +51,7 @@
       <change beforePath="$PROJECT_DIR$/Assets/Shaders/Includes/Watercolor.hlsl" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Includes/Watercolor.hlsl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Shaders/Includes/Watercolor.hlsl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Includes/Watercolor.hlsl.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Shaders/Subgraphs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Subgraphs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders/WaterProx.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/WaterProx.shadergraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ShrinkEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ShrinkEffect.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SpaceBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SpaceBar.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Textures.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Textures/Shadow 1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Shadow 1.png.meta" afterDir="false" />
