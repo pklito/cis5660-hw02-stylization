@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Skin
+  m_Name: smaller 1
   m_Shader: {fileID: -6465566751694194690, guid: df619ccca7dd31b4280e29b20277c0d3,
     type: 3}
   m_Parent: {fileID: 0}
@@ -26,7 +26,7 @@ Material:
   stringTagMap: {}
   disabledShaderPasses:
   - MOTIONVECTORS
-  m_LockedProperties: 
+  m_LockedProperties: _NoiseScale _Threshold
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -51,26 +51,25 @@ Material:
     - ADDITIONAL_LIGHT_CALCULATE_SHADOWS: 1
     - MAIN_LIGHT_CALCULATE_SHADOWS: 1
     - _ADDITIONAL_LIGHTS: 1
-    - _ErosionThreshold: 1
+    - _ErosionThreshold: 0.5
     - _HighlightsAlways: 0
-    - _HighlightsBlock: 0
-    - _Low_threshold: 0.19
+    - _Low_threshold: 0.88
     - _MAIN_LIGHT_SHADOWS_CASCADE: 1
-    - _NoiseScale: 23.25
+    - _NoiseScale: 50
     - _QueueControl: 0
     - _QueueOffset: 0
     - _SHADOWS_SOFT: 1
-    - _ShadowTexAngle: 2.1
-    - _ShadowTexScale: 4
-    - _ShadowThreshold: 1
+    - _ShadowTexAngle: 2.24
+    - _ShadowTexScale: 6.4
+    - _ShadowThreshold: 0.13
     - _Thickness: 0.2
-    - _Threshold: 0.66
-    - _squash: 2.8
+    - _Threshold: 0.95
+    - _squash: 0.8
     m_Colors:
     - _Highlight: {r: 1, g: 1, b: 1, a: 1}
-    - _Midtone: {r: 0.96981126, g: 0.92626125, b: 0.7520611, a: 1}
+    - _Midtone: {r: 0.9098458, g: 0.7752581, b: 0.9622642, a: 1}
     - _RampedDiffuseValues: {r: 0.2, g: 0.5, b: 1, a: 0}
-    - _Shadow: {r: 0.93207544, g: 0.8789647, b: 0.6665219, a: 1}
+    - _Shadow: {r: 0.9695498, g: 0.6924528, b: 1, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &2041975074682087336
 MonoBehaviour:
