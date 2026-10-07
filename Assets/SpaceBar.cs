@@ -4,15 +4,22 @@ using UnityEngine;
 
 public class SpaceBar : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+    public Material[] materials;
+    private MeshRenderer meshRenderer;
+    int index;
+
+    void Start () {
+        meshRenderer = GetComponent<MeshRenderer>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    void Update () {
+        if (Input.GetKeyDown(KeyCode.Space)){
+            index = (index + 1) % materials.Length;
+            SwapToNextMaterial(index);
+        }
+    }
+
+    void SwapToNextMaterial (int index) {
+        meshRenderer.material = materials[index % materials.Length];
     }
 }
