@@ -31,7 +31,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _ShadowTexture:
-        m_Texture: {fileID: 2800000, guid: 966f2baf5f8eaa745a5bcdc4c8127425, type: 3}
+        m_Texture: {fileID: 2800000, guid: b46770268fa867140866f410b509e0b6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -59,6 +59,7 @@ Material:
     - _SHADOWS_SOFT: 1
     - _ShadowTexAngle: 2.1
     - _ShadowTexScale: 4
+    - _ShadowThreshold: 0.13
     - _Threshold: 0.76
     - _squash: 3
     m_Colors:

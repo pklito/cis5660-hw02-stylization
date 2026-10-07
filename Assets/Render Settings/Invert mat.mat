@@ -59,10 +59,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _OverlayStrength: 0.5
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _dotAmount: 20
+    - _dotAmount: 15
     - _dotSize: 0.1
+    - _dotStrength: 0.5
     m_Colors:
-    - _DotColor: {r: 0.6830188, g: 0.6753303, b: 0, a: 0}
+    - _DotColor: {r: 0.68301874, g: 0.6753303, b: 0, a: 1}
   m_BuildTextureStacks: []

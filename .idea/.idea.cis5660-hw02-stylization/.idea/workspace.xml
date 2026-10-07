@@ -11,18 +11,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b1b112e-951f-4f09-8f4a-4b9120b41f20" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Shaders/Includes/Watercolor.hlsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shaders/Includes/Watercolor.hlsl.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cis5660-hw02-stylization/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cis5660-hw02-stylization/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cis5660-hw02-stylization/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cis5660-hw02-stylization/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cis5660-hw02-stylization/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cis5660-hw02-stylization/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.cis5660-hw02-stylization/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cis5660-hw02-stylization/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vsconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.vsconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Buffers.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Buffers.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Buffers/Normal Buffer.renderTexture.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Buffers/Normal Buffer.renderTexture.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Body 2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Body 2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Cloth.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Cloth.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/PureBlack.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/PureBlack.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/PureWhite.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/PureWhite.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Shine.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Shine.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Skin.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Skin.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Sonic body.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Sonic body.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Models.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Render Settings.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Render Settings.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Render Settings/Invert mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Render Settings/Invert mat.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Render Settings/Render Features.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Render Settings/Render Features.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Render Settings/Render Features/EdgeDetection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Render Settings/Render Features/EdgeDetection.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Render Settings/Render Features/Full Screen Feature.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Render Settings/Render Features/Full Screen Feature.cs" afterDir="false" />
@@ -30,11 +37,13 @@
       <change beforePath="$PROJECT_DIR$/Assets/Render Settings/Render Features/NormalFeature.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Render Settings/Render Features/NormalFeature.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Render Settings/Render Features/NormalFeature.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Render Settings/Render Features/NormalFeature.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Render Settings/Render Features/ScreenSpaceOutlines.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Render Settings/Render Features/ScreenSpaceOutlines.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Render Settings/URP-Custom-Renderer.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Render Settings/URP-Custom-Renderer.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Render Settings/URP-Custom-Renderer.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Render Settings/URP-Custom-Renderer.asset.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Render Settings/URP-Custom.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Render Settings/URP-Custom.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Render Settings/URP-Custom.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Render Settings/URP-Custom.asset.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Additional Light Demo.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Additional Light Demo.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/HW Base.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/HW Base.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/HW Base.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/HW Base.unity.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Turntable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Turntable.cs" afterDir="false" />
@@ -49,6 +58,9 @@
       <change beforePath="$PROJECT_DIR$/Assets/Shaders/Includes/LightingHelp.hlsl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Includes/LightingHelp.hlsl.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Shaders/Includes/OutlineHelp.hlsl" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Includes/OutlineHelp.hlsl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Shaders/Includes/OutlineHelp.hlsl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Includes/OutlineHelp.hlsl.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Includes/Watercolor.hlsl" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Includes/Watercolor.hlsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Includes/Watercolor.hlsl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Includes/Watercolor.hlsl.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/ShadowsTex.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/ShadowsTex.shadergraph" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Shaders/Subgraphs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Subgraphs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Textures.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Textures/Shadow 1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Shadow 1.png.meta" afterDir="false" />
@@ -102,61 +114,61 @@
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.9926377717866527E-21" />
-      <entry key="MS500" value="1.260398650396048E-4" />
-      <entry key="S2" value="0.17819578345835663" />
-      <entry key="S5" value="0.7664913090553503" />
-      <entry key="S10" value="1.3127427010089854" />
-      <entry key="S30" value="2.3638032587496336" />
-      <entry key="S60" value="3.463433523280032" />
-      <entry key="M2" value="4.692646963111329" />
-      <entry key="M5" value="6.103888221752693" />
-      <entry key="M10" value="11.816860904566388" />
-      <entry key="M15" value="22.963490213566594" />
-      <entry key="M30" value="56.79328788317554" />
-      <entry key="H1" value="94.57783093739779" />
-      <entry key="H2" value="123.34064317949701" />
-      <entry key="H4" value="141.58949528629273" />
-      <entry key="D1" value="160.90188803458122" />
-      <entry key="W1" value="165.22005507393047" />
+      <entry key="MS100" value="3.0347308492848147E-6" />
+      <entry key="MS500" value="0.0787814619739366" />
+      <entry key="S2" value="0.5297927477027239" />
+      <entry key="S5" value="0.7756082281339736" />
+      <entry key="S10" value="0.8807793457540464" />
+      <entry key="S30" value="1.0433898060638938" />
+      <entry key="S60" value="1.5387040855978418" />
+      <entry key="M2" value="2.4718877888955504" />
+      <entry key="M5" value="3.680773974245305" />
+      <entry key="M10" value="4.519249863443333" />
+      <entry key="M15" value="6.197181824762138" />
+      <entry key="M30" value="20.105073861663424" />
+      <entry key="H1" value="56.67461377945089" />
+      <entry key="H2" value="102.56562271586229" />
+      <entry key="H4" value="140.11353115754645" />
+      <entry key="D1" value="184.5266649519124" />
+      <entry key="W1" value="194.27418913317234" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0000003982009507" />
-      <entry key="MS500" value="1.0532886221650735" />
-      <entry key="S2" value="1.6472478885167643" />
-      <entry key="S5" value="2.286674732472699" />
-      <entry key="S10" value="2.9478566839031797" />
-      <entry key="S30" value="4.382649529406368" />
-      <entry key="S60" value="5.23592864797611" />
-      <entry key="M2" value="5.923110329149358" />
-      <entry key="M5" value="6.5149929480698345" />
-      <entry key="M10" value="7.0057920044926005" />
-      <entry key="M15" value="7.606962374885629" />
-      <entry key="M30" value="9.240436843562415" />
-      <entry key="H1" value="10.988678420548055" />
-      <entry key="H2" value="12.2896498187187" />
-      <entry key="H4" value="13.086266390999889" />
-      <entry key="D1" value="13.838862826861776" />
-      <entry key="W1" value="13.976753725568122" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.000000017753788" />
+      <entry key="S10" value="1.0002619679884683" />
+      <entry key="S30" value="1.160533943038265" />
+      <entry key="S60" value="1.8008705826215956" />
+      <entry key="M2" value="2.789564245228252" />
+      <entry key="M5" value="3.89989995819429" />
+      <entry key="M10" value="4.472314271259634" />
+      <entry key="M15" value="4.968899233125068" />
+      <entry key="M30" value="7.093531771218336" />
+      <entry key="H1" value="10.95965663946304" />
+      <entry key="H2" value="15.013999566218697" />
+      <entry key="H4" value="18.026093457562492" />
+      <entry key="D1" value="21.258001095018617" />
+      <entry key="W1" value="21.89185346711743" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="3.971384095043931E-5" />
-      <entry key="MS500" value="0.1402844871038007" />
-      <entry key="S2" value="1.178966222414378" />
-      <entry key="S5" value="2.6324357587502245" />
-      <entry key="S10" value="3.963877912640758" />
-      <entry key="S30" value="6.58003375640918" />
-      <entry key="S60" value="8.593425746315416" />
-      <entry key="M2" value="10.553014606864359" />
-      <entry key="M5" value="12.590014898770761" />
-      <entry key="M10" value="18.80388823000979" />
-      <entry key="M15" value="30.55311883479508" />
-      <entry key="M30" value="66.01821615045466" />
-      <entry key="H1" value="105.555076816867" />
-      <entry key="H2" value="135.62320896698247" />
-      <entry key="H4" value="154.67178532038264" />
-      <entry key="D1" value="174.73996199740762" />
-      <entry key="W1" value="179.19668794642013" />
+      <entry key="MS100" value="1.6220873453858865E-4" />
+      <entry key="MS500" value="0.20205480283691807" />
+      <entry key="S2" value="1.0535130643959658" />
+      <entry key="S5" value="1.537896830605939" />
+      <entry key="S10" value="1.7522617272925547" />
+      <entry key="S30" value="2.1534253743780147" />
+      <entry key="S60" value="3.301057925308525" />
+      <entry key="M2" value="5.2303004460225555" />
+      <entry key="M5" value="7.562260621236701" />
+      <entry key="M10" value="8.980717856548589" />
+      <entry key="M15" value="11.157735883172748" />
+      <entry key="M30" value="27.191044831376026" />
+      <entry key="H1" value="67.62646933082053" />
+      <entry key="H2" value="117.5733060508115" />
+      <entry key="H4" value="158.13549483467963" />
+      <entry key="D1" value="205.78374069953097" />
+      <entry key="W1" value="216.16589864147244" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{

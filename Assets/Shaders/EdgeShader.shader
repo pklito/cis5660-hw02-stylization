@@ -37,20 +37,26 @@ Shader "Hidden/Edge Detection"
             #pragma vertex Vert // vertex shader is provided by the Blit.hlsl include
             #pragma fragment frag
 
-            // Edge detection kernel that works by taking the sum of the squares of the differences between diagonally adjacent pixels (Roberts Cross).
-            float RobertsCross(float3 samples[4])
+            // Sobel edge detection kernel for vector samples.
+            // Samples are laid out row by row (top row first):
+            //   0 1 2
+            //   3 4 5
+            //   6 7 8
+            float Sobel(float3 s[9])
             {
-                const float3 difference_1 = samples[1] - samples[2];
-                const float3 difference_2 = samples[0] - samples[3];
-                return sqrt(dot(difference_1, difference_1) + dot(difference_2, difference_2));
+                // Horizontal gradient: kernel [-1 0 1; -2 0 2; -1 0 1]
+                const float3 gx = (s[2] + 2.0 * s[5] + s[8]) - (s[0] + 2.0 * s[3] + s[6]);
+                // Vertical gradient: kernel [-1 -2 -1; 0 0 0; 1 2 1]
+                const float3 gy = (s[0] + 2.0 * s[1] + s[2]) - (s[6] + 2.0 * s[7] + s[8]);
+                return sqrt(dot(gx, gx) + dot(gy, gy));
             }
 
             // The same kernel logic as above, but for a single-value instead of a vector3.
-            float RobertsCross(float samples[4])
+            float Sobel(float s[9])
             {
-                const float difference_1 = samples[1] - samples[2];
-                const float difference_2 = samples[0] - samples[3];
-                return sqrt(difference_1 * difference_1 + difference_2 * difference_2);
+                const float gx = (s[2] + 2.0 * s[5] + s[8]) - (s[0] + 2.0 * s[3] + s[6]);
+                const float gy = (s[0] + 2.0 * s[1] + s[2]) - (s[6] + 2.0 * s[7] + s[8]);
+                return sqrt(gx * gx + gy * gy);
             }
             
             // Helper function to sample scene normals remapped from [-1, 1] range to [0, 1].
@@ -71,46 +77,49 @@ Shader "Hidden/Edge Detection"
                 // Screen-space coordinates which we will use to sample.
                 float2 uv = IN.texcoord;
                 float2 texel_size = float2(1.0 / _ScreenParams.x, 1.0 / _ScreenParams.y);
-                
-                // Generate 4 diagonally placed samples.
-                const float half_width_f = floor(_OutlineThickness * 0.5);
-                const float half_width_c = ceil(_OutlineThickness * 0.5);
+                float2 offset = texel_size * _OutlineThickness;
 
-                float2 uvs[4];
-                uvs[0] = uv + texel_size * float2(half_width_f, half_width_c) * float2(-1, 1);  // top left
-                uvs[1] = uv + texel_size * float2(half_width_c, half_width_c) * float2(1, 1);   // top right
-                uvs[2] = uv + texel_size * float2(half_width_f, half_width_f) * float2(-1, -1); // bottom left
-                uvs[3] = uv + texel_size * float2(half_width_c, half_width_f) * float2(1, -1);  // bottom right
+                // Generate the 3x3 neighborhood of samples, row by row (top row first).
+                float2 uvs[9];
+                for (int y = 0; y < 3; y++)
+                {
+                    for (int x = 0; x < 3; x++)
+                    {
+                        uvs[y * 3 + x] = uv + offset * float2(x - 1, 1 - y);
+                    }
+                }
                 
-                float3 normal_samples[4];
-                float depth_samples[4], luminance_samples[4];
+                float3 normal_samples[9];
+                float depth_samples[9], luminance_samples[9];
                 
-                for (int i = 0; i < 4; i++) {
+                for (int i = 0; i < 9; i++) {
                     depth_samples[i] = SampleSceneDepth(uvs[i]);
                     normal_samples[i] = SampleSceneNormalsRemapped(uvs[i]);
                     luminance_samples[i] = SampleSceneLuminance(uvs[i]);
                 }
                 
                 // Apply edge detection kernel on the samples to compute edges.
-                float edge_depth = RobertsCross(depth_samples);
-                float edge_normal = RobertsCross(normal_samples);
-                float edge_luminance = RobertsCross(luminance_samples);
+                float edge_depth = Sobel(depth_samples);
+                float edge_normal = Sobel(normal_samples);
+                float edge_luminance = Sobel(luminance_samples);
                 
-                // Threshold the edges (discontinuity must be above certain threshold to be counted as an edge). The sensitivities are hardcoded here.
-                float depth_threshold = 1 / 200.0f;
+                // Threshold the edges (discontinuity must be above certain threshold to be counted as an edge).
+                // Sobel produces larger magnitudes than Roberts Cross, so these are starting guesses: tune by eye.
+                float depth_threshold = 1 / 100.0f;
                 edge_depth = edge_depth > depth_threshold ? 1 : 0;
                 
-                float normal_threshold = 1 / 4.0f;
+                float normal_threshold = 1 / 2.0f;
                 edge_normal = edge_normal > normal_threshold ? 1 : 0;
                 
                 float luminance_threshold = 1 / 0.5f;
                 edge_luminance = edge_luminance > luminance_threshold ? 1 : 0;
                 
                 // Combine the edges from depth/normals/luminance using the max operator.
-                float edge = max(edge_depth, max(edge_normal, edge_luminance));
+                // Note: luminance is still not included here, same as the original shader.
+                float edge = max(edge_depth, edge_normal);
                 
                 // Color the edge with a custom color.
-                return half4(edge_depth,edge_luminance,edge_normal,(edge_depth + edge_luminance + edge_normal));
+                return edge * _OutlineColor;
             }
             ENDHLSL
         }
